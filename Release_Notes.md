@@ -2,19 +2,19 @@
 
 # Purpose
 
-This example demonstrates how to use the LIS2DUXS12 part driver with STM32CubeMX2.
+This example demonstrates how to use the LIS2DUXS12 part driver with STM32CubeMX2 on I2C bus.
 
 # Update history
 
-<label for="collapse-v-1-0-0" aria-hidden="true">**1.0.0 / 17-April-2026**</label>
+<label for="collapse-v-1-1-0" aria-hidden="true">**1.1.0 / 21-July-2026**</label>
 <div>
 
 
 ## Main changes
 
-### First release
+### Maintenance release
 
-Initial release of the LIS2DUXS12 datalog_i2c example for STM32CubeMX2.
++Update the LIS2DUXS12 datalog_i2c example for STM32CubeMX2 v1.1.0.
 
 ## Known limitations
 
@@ -22,7 +22,7 @@ No limitation raised for this example.
 
 ## Dependencies
 
-Configuration and code generation features require STM32CubeMX2 >= 1.0.0.
+Configuration and code generation features require STM32CubeMX2 >= 1.1.0.
 
 </div>
 

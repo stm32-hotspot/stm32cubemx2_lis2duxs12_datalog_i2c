@@ -1,20 +1,20 @@
 ﻿# __Example: *lis2duxs12_datalog_i2c*__
 
 
-How to use part LIS2DUXS12 API.
+How to use the LIS2DUXS12 part API.
 
 It illustrates it by getting the values of the accelerometer (in mg) and displaying them on a terminal.
 
 
 ## __1. Detailed scenario__
 
-__Initialization phase__: At the beginning of the `main()` function, the LIS2DUXS12 component is initialized.
+__Initialization phase__: At main program start, the `mx_system_init()` function is called. It initializes the peripherals, nonvolatile memory (such as flash memory, NVM, or external memories), MPU regions (if applicable), the system clock, and the SysTick.
 
-The following __example steps__ are executed:
+The application executes the following __example steps__:
 
 __Step 1__: Initializes and enables accelerometer feature of LIS2DUXS12
 
-__Step 2__: Gets the values of the accelerometer (in hg) and displays them on a terminal
+__Step 2__: Gets the values of the accelerometer (in mg) and displays them on a terminal
 
 __End of example__: It is an endless example that loops infinitely on step 2
 
@@ -79,7 +79,7 @@ No specific debug tips.
 
 ## __6. See Also__
 
-More information about LIS2DUXS12 part driver can be found in the [LIS2DUXS12 Part Driver](https://dev.st.com/stm32cube-docs/part-drivers-lis2duxs12/1.0.0/en/index.html)
+More information about LIS2DUXS12 part driver can be found in the [LIS2DUXS12 Part Driver](https://dev.st.com/stm32cube-docs/part-drivers-lis2duxs12/1.1.0/en/index.html)
 
 More information about the STM32 ecosystem can be found in the [STM32 MCU Developer Zone](https://www.st.com/content/st_com/en/stm32-mcu-developer-zone.html).
 

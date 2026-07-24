@@ -42,10 +42,10 @@ app_status_t app_init(void)
   /* LIS2DUXS12 device 0: enable the accelerometer feature */
   if (lis2duxs12_drv_acc_enable(pLis2duxs120) != 0)
   {
-    PRINTF("[ERROR] Enabling the ACC feature failed\r\n");
+    PRINTF("[ERROR] Step 1: Enabling the ACC feature error\r\n");
     goto _app_init_exit;
   }
-    PRINTF("[INFO] Enabling ACC feature SUCCESS\r\n");
+    PRINTF("[INFO] Step 1: Enabling the ACC feature completed\r\n");
   return_status = EXEC_STATUS_INIT_OK;
   
 _app_init_exit:
