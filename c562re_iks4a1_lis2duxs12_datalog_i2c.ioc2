@@ -595,7 +595,7 @@
         "folder": "misc/STMicroelectronics.lis2duxs12_hw-part.2.0.0"
       },
       {
-        "packName": "STMicroelectronics.lis2duxs12_part_drivers.1.1.0",
+        "packName": "STMicroelectronics.lis2duxs12_part_drivers.1.1.1",
         "folder": "part_drivers/lis2duxs12"
       },
       {
@@ -2123,7 +2123,7 @@ solution:
     - pack: STMicroelectronics::crystal_hw-part@2.2.0
     - pack: STMicroelectronics::esd_hw-part@2.2.0
     - pack: STMicroelectronics::lis2duxs12_hw-part@2.0.0
-    - pack: STMicroelectronics::lis2duxs12_part_drivers@1.1.0
+    - pack: STMicroelectronics::lis2duxs12_part_drivers@1.1.1
     - pack: STMicroelectronics::led_hw-part@2.5.0
     - pack: STMicroelectronics::led_part_drivers@2.0.0
     - pack: STMicroelectronics::mcp2562fd_hw-part@2.1.0
@@ -2588,7 +2588,7 @@ solution:
       {
         "$type": "http://st.com/schema/sw-composer#//SingleInstanceSWComponent",
         "id": "e66941c1-ce90-4f3d-b60d-8ddc53cb8412",
-        "componentDescriptionId": "STMicroelectronics.lis2duxs12_part_drivers.1.1.0$STMicroelectronics::Board Part:STM32CubeMX2 Config:LIS2DUXS12@1.1.0#LIS2DUXS12 CFG Condition",
+        "componentDescriptionId": "STMicroelectronics.lis2duxs12_part_drivers.1.1.1$STMicroelectronics::Board Part:STM32CubeMX2 Config:LIS2DUXS12@1.1.1#LIS2DUXS12 CFG Condition",
         "label": "STM32CubeMX2 Config:LIS2DUXS12",
         "expanded": true,
         "userAdded": true
@@ -2604,7 +2604,7 @@ solution:
       {
         "$type": "http://st.com/schema/sw-composer#//SWComponent",
         "id": "718581e6-5c55-42ae-8817-309872f82cc4",
-        "componentDescriptionId": "STMicroelectronics.lis2duxs12_part_drivers.1.1.0$STMicroelectronics::Board Part:Sensor:LIS2DUXS12 Core@1.1.0#LIS2DUXS12 Core Condition",
+        "componentDescriptionId": "STMicroelectronics.lis2duxs12_part_drivers.1.1.1$STMicroelectronics::Board Part:Sensor:LIS2DUXS12 Core@1.1.1#LIS2DUXS12 Core Condition",
         "label": "Sensor:LIS2DUXS12 Core",
         "expanded": true,
         "userAdded": false
@@ -2612,7 +2612,7 @@ solution:
       {
         "$type": "http://st.com/schema/sw-composer#//SWComponent",
         "id": "e682ddb7-59eb-4380-bc59-14768da740ac",
-        "componentDescriptionId": "STMicroelectronics.lis2duxs12_part_drivers.1.1.0$STMicroelectronics::Board Part:Sensor:LIS2DUXS12 IO&I2C Polling@1.1.0#LIS2DUXS12 IO I2C Polling Condition",
+        "componentDescriptionId": "STMicroelectronics.lis2duxs12_part_drivers.1.1.1$STMicroelectronics::Board Part:Sensor:LIS2DUXS12 IO&I2C Polling@1.1.1#LIS2DUXS12 IO I2C Polling Condition",
         "label": "Sensor:I2C Polling",
         "expanded": true,
         "userAdded": false
@@ -2620,7 +2620,7 @@ solution:
       {
         "$type": "http://st.com/schema/sw-composer#//SWComponent",
         "id": "84db8a52-035c-4589-8515-7c7347606252",
-        "componentDescriptionId": "STMicroelectronics.lis2duxs12_part_drivers.1.1.0$STMicroelectronics::Board Part:Sensor:LIS2DUXS12 Reg@5.1.1",
+        "componentDescriptionId": "STMicroelectronics.lis2duxs12_part_drivers.1.1.1$STMicroelectronics::Board Part:Sensor:LIS2DUXS12 Reg@5.1.1",
         "label": "Sensor:LIS2DUXS12 Reg",
         "expanded": true,
         "userAdded": false
@@ -3782,7 +3782,7 @@ solution:
           }
         }
       ],
-      "STMicroelectronics.lis2duxs12_part_drivers.1.1.0$STMicroelectronics::Board Part:STM32CubeMX2 Config:LIS2DUXS12@1.1.0#LIS2DUXS12 CFG Condition": [
+      "STMicroelectronics.lis2duxs12_part_drivers.1.1.1$STMicroelectronics::Board Part:STM32CubeMX2 Config:LIS2DUXS12@1.1.1#LIS2DUXS12 CFG Condition": [
         {
           "index": 12,
           "instanceId": "fd284ecf-e1e7-42ed-9b60-0ccf05746f4c",
@@ -3802,7 +3802,7 @@ solution:
                   },
                   "i2cAddress": {
                     "sa0Pad": "LIS2DUXS12_I2C_ADD_H",
-                    "address": "0x39"
+                    "address": "0x19"
                   }
                 }
               }
@@ -4149,10 +4149,10 @@ project:
   components:
     - component: STMicroelectronics::Application:stm32cubemx2_templates&no os@2.1.0
     - component: STMicroelectronics::Board Part:LED:GPIO@1.0.0
-    - component: STMicroelectronics::Board Part:Sensor:LIS2DUXS12 Core@1.1.0
-    - component: STMicroelectronics::Board Part:Sensor:LIS2DUXS12 IO&I2C Polling@1.1.0
+    - component: STMicroelectronics::Board Part:Sensor:LIS2DUXS12 Core@1.1.1
+    - component: STMicroelectronics::Board Part:Sensor:LIS2DUXS12 IO&I2C Polling@1.1.1
     - component: STMicroelectronics::Board Part:Sensor:LIS2DUXS12 Reg@5.1.1
-    - component: STMicroelectronics::Board Part:STM32CubeMX2 Config:LIS2DUXS12@1.1.0
+    - component: STMicroelectronics::Board Part:STM32CubeMX2 Config:LIS2DUXS12@1.1.1
     - component: STMicroelectronics::Board Part:STM32CubeMX2 Config:LED@1.0.0
     - component: STMicroelectronics::CMSIS:CORE@6.2.0
     - component: STMicroelectronics::Device:Startup@2.1.0

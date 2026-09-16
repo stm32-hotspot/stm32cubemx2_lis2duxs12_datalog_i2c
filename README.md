@@ -57,7 +57,7 @@ This section describes the hardware setup principles that apply to any board.
   |      CN5-10     |   PB6   |  I2C1_SCL   |  ARDUINO CONNECTOR - D15   |
   |      CN5-9      |   PB7   |  I2C1_SDA   |  ARDUINO CONNECTOR - D14   |
 
-  - I2C ADDw = 0x33 (7-bit address).
+  - I2C ADDw = 0x19 (7-bit address).
 
 </details>
 
@@ -79,7 +79,7 @@ No specific debug tips.
 
 ## __6. See Also__
 
-More information about LIS2DUXS12 part driver can be found in the [LIS2DUXS12 Part Driver](https://dev.st.com/stm32cube-docs/part-drivers-lis2duxs12/1.1.0/en/index.html)
+More information about LIS2DUXS12 part driver can be found in the [LIS2DUXS12 Part Driver](https://dev.st.com/stm32cube-docs/part-drivers-lis2duxs12/1.1.1/en/index.html)
 
 More information about the STM32 ecosystem can be found in the [STM32 MCU Developer Zone](https://www.st.com/content/st_com/en/stm32-mcu-developer-zone.html).
 
